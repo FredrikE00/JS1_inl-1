@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <title>Inlämmningsuppgift-1</title>
+</head>
+<body>
+    <!-- Nav -->
+    <nav class="navbar bg-primary d-flex justify-content-center">
+        <h1 class="text-white">Inlämningsuppgift-1</h1>
+      </nav>
+
+  <div class="container">
+      <!-- Form, firstname, lastname, email och Register knapp -->
+    <form id="form" class="mt-5">
+      <div class="row"> 
+        <!-- får Form i row-->
+        <!-- First Name -->
+        <div class="col-3">
+          <input type="text" id="firstName" class="form-control" placeholder="First name">
+          <div class="invalid-feedback">
+            Please enter a first name
+          </div>
+        </div>
+        <!-- Last Name -->
+        <div class="col-3">
+          <input type="text" id="lastName" class="form-control" placeholder="Last name">
+          <div class="invalid-feedback">
+            Please enter a last name
+          </div>
+        </div>
+        <!-- email -->
+        <div class="col-4">
+          <input type="email" id="email" class="form-control" placeholder="Email">
+          <div class="invalid-feedback">
+            Please enter an Email address
+          </div>
+        </div>
+        <!-- Register -->
+        <div class="col-2">
+          <button class="btn btn-primary w-100">Register</button>
+        </div>
+
+      </div>
+    </form>
+  </div>
+
+
+  <div class="container">   
+      <!-- här kommer nya users -->
+    <div id="output" class="mt-5">
+
+    </div>
+  </div>
+  
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
